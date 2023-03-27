@@ -1,0 +1,156 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0%;
+}
+
+header{
+  width: 100%;
+  height: 200px;     
+}
+
+header h2{
+  text-align: center;
+}
+
+
+img{
+  float: left;
+  width: 300px;
+  height: 200px;     
+ }
+
+h1{
+  text-align: center;
+  font-size: 70px;
+  margin:auto;
+  padding-top:20px ;
+  color: slateblue;      
+}
+
+section h2 {
+  padding: 5px;
+  font-weight: bold;
+  color: slateblue;
+  margin: 10px;
+  font-size:  40px; 
+}
+
+h3{
+  font-size: 30px;
+}
+
+h4{
+  font-size: 25px;
+}
+
+h5{
+  font-size: 20px;
+  margin: 10px;
+}
+
+p {
+  padding: 5px;
+  line-height: 25px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.contenedor-nav {
+    display: flex; 
+  }
+  
+.sidebar {
+  width: 300px; 
+  min-width: 300px; ;
+  height: 100vh; 
+  margin:0%; 
+  background-color: slateblue;   
+  }
+  
+.contenedor-principal {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-left: 20px;   
+  }
+
+  section{
+  margin: 20px;
+  }
+
+  .nav-li{
+  font-size: 25px;
+  display: block;
+  padding-top: 50px;
+  color: azure;
+}
+
+.nav-li:hover >a {
+  color: #ccc;
+}
+
+.nav-li:hover >i {
+  color: #ccc;
+ }
+.nav-li a {
+  text-decoration: none;
+  color: azure;
+  margin: 10px;
+}
+
+.nav-il i{
+  width: 30px;
+  box-sizing: border-box;
+  text-align: right;
+  margin-right: 5px;
+}
+
+span {
+  text-align: center;
+  font-size: 90px;
+  margin-right: 400px;
+  padding-top: 50px;
+  padding-left:50px ;
+  color: slateblue;
+  font-weight: bold;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .15em solid black;
+  animation: typing 3s steps(40, end);
+  min-width: none;
+  
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+.ocultar{
+  display: none;
+  
+}
+
+section ul{
+  margin-top:20px ;
+  margin-bottom: 2px;
+}
+
+section p{
+  margin-top: 2px;
+  margin: 10px;
+}
+
+.barra-progreso{
+  width: 300px;
+  height: 20px;
+  margin: 20px;
+}
+
+#contacto-content{
+  font-size: 30px;
+  margin: 20px;
+}
+
