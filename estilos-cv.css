@@ -5,8 +5,7 @@
 }
   
 body{
-  background-image:url(/imagenes/fondo3.png);
-  background-color:rgba(198, 195, 192, 0.719) ;
+  background-image:url(/imagenes/textura-papel-acuarela.jpg);
   background-size:cover;
   min-height:100vh ;
   position: relative;
