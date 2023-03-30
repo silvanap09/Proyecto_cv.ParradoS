@@ -6,32 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mi cv</title>
     <link rel="stylesheet" href="estilos-cv.css">
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/76d8a704c9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
     
 </head>
 <body>
     <header>
-        <img src="https://randomuser.me/api/portraits/women/8.jpg" alt="">
         <h1>NATALIA VARGAS</h1>
         <h2>PROFESORA DE INGLES</h2>
     </header>
+    
     <div class="contenedor-nav">
         <div class="sidebar" id="navegador">
             <ul class="nav-ul">
-                <li class="nav-li"><i class="fa-solid fa-circle-user"></i><a id="sobre_mi" href="">Sobre mi</a> </li>
+                <li class="nav-li"><i class="fa-solid fa-circle-user"></i><a id="sobre_mi" href="">Sobre mí</a> </li>
                 <li class="nav-li"><i class="fa-solid fa-briefcase"></i><a id="experiencia" href="">Experiencia</a> </li>
                 <li class="nav-li"><i class="fa-solid fa-star"></i><a id="habilidades" href="">Habilidades</a> </li>
                 <li class="nav-li"><i class="fa-solid fa-address-book"></i><a id="contacto" href="">contacto</a> </li>
             </ul>
+            <!--navegador responsivo-->
+            <ul class="responsivo__ul">
+                <div class="nav__boton__principal">
+                    <button class="nav__boton__responsivo fa-solid fa-bars"></button>
+                </div>
+                <div class="responsivo__contenido">
+                    <li class="nav-responsivo__li"><i class="fa-solid fa-circle-user"></i><a id="sobre_mi" href="">Sobre mi</a> </li>
+                    <li class="nav-responsivo__li"><i class="fa-solid fa-briefcase"></i><a id="experiencia" href="">Experiencia</a> </li>
+                    <li class="nav-responsivo__li"><i class="fa-solid fa-star"></i><a id="habilidades" href="">Habilidades</a> </li>
+                    <li class="nav-responsivo__li"><i class="fa-solid fa-address-book"></i><a id="contacto" href="">contacto</a> </li>
+                </div> 
+            </ul>
         </div> 
+        
         <div class="contenedor-principal">
-          
-            <span id="saludos" >¡Hola Mundo!</span>
-            
+            <span id="saludos">¡Hola Mundo!</span>
             <section  id="sobre_mi-content">
+                <div class="imagen"><img src="https://randomuser.me/api/portraits/women/8.jpg" alt=""></div>
                 <h2>SOBRE MÍ</h2>
-                <h4>Mi objetivo profesional es desempeñarme en una institución educativa y aportar mi formación y experiencia como profesora de inglés. Posea gran habilidad de escucha y comunicación, capacidad para liderar equipos de trabajo colaborativos, generar empatías y buscar puntos de conexión y unión, resolución de conflictos, problemas y crisis. Soy apasionada de la enseñanza.</h4>
+                
+                <h4>Mi objetivo profesional es desempeñarme en una institución educativa y aportar mi formación y experiencia como profesora de inglés. Poseo una gran habilidad de escucha y comunicación, capacidad para liderar equipos de trabajo colaborativos, generar empatías y buscar puntos de conexión y unión, resolución de conflictos, problemas y crisis. Soy apasionada de la enseñanza.</h4>
+                
             </section>
             <section  id="experiencia-content">
                 <h2>EXPERIENCIA</h2>
@@ -49,21 +64,21 @@
             </section>
             <section  id="habilidades-content">
                 <h2>HABILIDADES</h2>
-                <h5 class="habilidad-bar">Comunicación asertiva con alumnos y representantes</h5>
+               <h5 class="habilidad-bar">Comunicación asertiva con alumnos y representantes</h5>
                 <progress class="barra-progreso" value="70" max="100"></progress>
                 <h5 class="habilidad-bar">Capacidad de liderazgo</h5>
                 <progress class="barra-progreso" value="100" max="100"></progress>
                 <h5 class="habilidad-bar">Uso de material tecnológico </h5>
                 <progress class="barra-progreso" value="100" max="100"></progress>
                 <h5 class="habilidad-bar">Planificación y ejecución</h5>
-                <progress class="barra-progreso" value="80" max="100"></progress>   
+                <progress class="barra-progreso" value="80" max="100"></progress> 
             </section>
-            <section  id="contacto-content">
+            <section class="contacto"  id="contacto-content">
                     <h2>CONTACTO</h2>
-                    <i class="fa-solid fa-envelope"></i>
-                    <a class="contacto" href="">natalia.vargas@example.com</a>
-                    <i class="fa-solid fa-phone"></i>
-                    <a class="contacto" href="">(951) 376-6630</a>
+                    <h5><i class="fa-solid fa-envelope"></i>
+                    <a class="contacto" href="">natalia.vargas@example.com</a></h5>
+                    <h5><i class="fa-solid fa-phone"></i>
+                    <a class="contacto" href="">(951) 376-6630</a></h5>
             </section>
         </div>
     </div>    
